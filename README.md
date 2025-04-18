@@ -26,3 +26,9 @@ Pandas – data structuring and export
 Requests & BeautifulSoup – HTTP requests and parsing  
 Genderize API – for author gender prediction   
 OpenAthens – authentication gateway to Karger  
+
+№№⚠️ Challenges & Notes
+
+Dynamic content and delayed page loads were handled using try-except and WebDriverWait.  
+Some article metadata (e.g., author affiliations) may be partially hidden under overlays — the script attempts to close them automatically.  
+Manual login is required due to authentication via OpenAthens (no API access).  
